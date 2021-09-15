@@ -83,7 +83,7 @@ $ ./bkpass
 $ cp bkpass ~/.local/bin/
 ```
 
-* You see password promt for swapoff:
+* You see password prompt for swapoff:
 ```
 [sudo] password for user:
 ```
