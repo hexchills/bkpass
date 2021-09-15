@@ -11,6 +11,7 @@ I don't trust mega.nz and just want enhance security of keepassxc database
 
 ## Introduction
 Just a shell script, that encrypt database from your password-manager and upload it to mega.nz
+
 !!! Now only for .kdbx !!!
 
  Requirements:
