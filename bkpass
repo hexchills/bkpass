@@ -2,12 +2,18 @@
 
 sudo swapoff -a &&
 
-echo -n "Input name of tomb key (without .key extension): " &&
+tput setaf 50
+echo -n "Input name of tomb key (without .key extension): " && tput setaf 10
 read tombkey
-echo -n "Input name of tomb file (without .tomb extension): " &&
+tput setaf 50
+echo -n "Input name of tomb file (without .tomb extension): " && tput setaf 10
 read tombfile
-echo -n "Input name of keepassxc database (without .kdbx extension): " &&
+tput setaf 50
+echo -n "Input name of keepassxc database (without .kdbx extension): " && tput setaf 10
 read kpname
+tput setaf 7
+
+tomb close
 
 tomb open -k ~/$tombkey.tomb.key ~/$tombfile.tomb &&
 mv /media/$tombfile/.megarc ~/
