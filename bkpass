@@ -2,11 +2,11 @@
 
 sudo swapoff -a &&
 
-echo "Input name of tomb key (without .key extension): " &&
+echo -n "Input name of tomb key (without .key extension): " &&
 read tombkey
-echo "Input name of tomb file (without .tomb extension): " &&
+echo -n "Input name of tomb file (without .tomb extension): " &&
 read tombfile
-echo "Input name of keepassxc database (without .kdbx extension): " &&
+echo -n "Input name of keepassxc database (without .kdbx extension): " &&
 read kpname
 
 tomb open -k ~/$tombkey.tomb.key ~/$tombfile.tomb &&
