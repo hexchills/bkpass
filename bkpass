@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo swapoff -a &&
 tomb open -k ~/test.tomb.key ~/test.tomb &&
@@ -6,7 +6,14 @@ mv /media/test/.megarc ~/
 megarm /Root/test.kdbx.age
 age -p ~/keepass/test.kdbx > ~/keepass/test.kdbx.age &&
 megaput ~/keepass/test.kdbx.age &&
+
+echo -e "\033[31m Check MEGA directory"; tput setaf 50
+
+megals
+
+tput setaf 7
+
 mv ~/.megarc /media/test/ &&
 tomb close &&
 
-echo -e "\033[31m We DID IT \!"
+echo -e "\033[31m We DID IT !"
