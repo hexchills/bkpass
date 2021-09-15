@@ -6,7 +6,7 @@
 |_.__/ |_|\_\ .__/  \__,_||___/|___/
             |_|
 	
-I don't trust mega.nz and just want enhance security of keepassxc database
+I don't trust mega.nz and just want to enhance security of keepassxc database
 ```
 
 ## Introduction
