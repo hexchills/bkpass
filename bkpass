@@ -16,7 +16,7 @@ tput setaf 7
 tomb close
 
 tomb open -k ~/$tombkey.tomb.key ~/$tombfile.tomb &&
-mv /media/$tombfile/.megarc ~/
+mv /media/$tombfile/.megarc ~/ &&
 
 megarm /Root/$kpname.kdbx.age
 age -p ~/$kpname.kdbx > ~/$kpname.kdbx.age &&
