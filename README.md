@@ -94,3 +94,11 @@ Enter passphrase (leave empty to autogenerate a secure one):
 If everything went well, you should see this output:
 
 ![](test.png)
+
+I plan to add:
+
+* Support for another encryption choise 
+* Better usabilty
+* Backup (go)pass database
+* Config for user parameters
+* Maybe another choise for free cloud provider
