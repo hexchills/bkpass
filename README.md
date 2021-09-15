@@ -100,7 +100,7 @@ If everything went well, you should see this output:
 
 I plan to add:
 
-* Support for another encryption choise 
+* Support for another encryption provider
 * Better usabilty
 * Backup (go)pass database
 * Config for user parameters
