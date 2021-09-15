@@ -47,8 +47,8 @@ Just a shell script, that encrypt database from your password-manager and upload
 > For tomb just follow official guide in repo [https://github.com/dyne/Tomb](https://github.com/dyne/Tomb)
 
 ## Usage
-1. You must create tomb.key and .tomb storage file (follow the instructions in tomb repo [wiki](https://github.com/dyne/Tomb/blob/master/INSTALL.md))
-2. You need to create a dotfile .megarc (need for megatools) in home directory, with this parameters
+1. Create tomb.key and .tomb storage file (follow the instructions in tomb repo [wiki](https://github.com/dyne/Tomb/blob/master/INSTALL.md))
+2. Make a dotfile .megarc (need for megatools) in home directory, with this parameters
 ```
 [Login]
 Username = test@hello.com
