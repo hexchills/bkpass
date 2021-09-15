@@ -41,6 +41,7 @@ Just a shell script, that encrypt database from your password-manager and upload
         </td>
     </tr>
 </table>
+
 > You can install VeraCrypt with binary from official site [https://veracrypt.fr/](https://veracrypt.fr/) (Fedora[use .rpm for CentOS]/Ubuntu/Debian/OpenSUSE/FreeBSD/MacOS/Windows)
 > 
 > For tomb just follow official guide in repo [https://github.com/dyne/Tomb](https://github.com/dyne/Tomb)
