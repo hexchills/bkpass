@@ -1,0 +1,12 @@
+#!/bin/sh
+
+sudo swapoff -a &&
+tomb open -k ~/test.tomb.key ~/test.tomb &&
+mv /media/test/.megarc ~/
+megarm /Root/test.kdbx.age
+age -p ~/keepass/test.kdbx > ~/keepass/test.kdbx.age &&
+megaput ~/keepass/test.kdbx.age &&
+mv ~/.megarc /media/test/ &&
+tomb close &&
+
+echo -e "\033[31m We DID IT \!"
