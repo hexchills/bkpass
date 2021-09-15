@@ -73,6 +73,9 @@ $ cd bkpass
 ```
 
 5. Run script (works if .kdbx database in home directory):
+
+!!! Script will delete old database in mega.nz storage # megarm /Root/test.kdbx.age
+
 ```
 $ chmod +x bkpass
 $ ./bkpass 
