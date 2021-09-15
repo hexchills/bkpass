@@ -76,8 +76,8 @@ $ cd bkpass
 ```
 $ chmod +x bkpass
 $ ./bkpass 
-# You may want to add script to .local/bin/ for better usability
-
+# You may want to add script to ~/.local/bin/ for better usability
+$ cp bkpass ~/.local/bin/
 ```
 
 * You see password promt for swapoff:
